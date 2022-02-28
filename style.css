@@ -1,0 +1,82 @@
+corpo {
+    cor de fundo :  # 808080 ;
+}
+
+h3 {
+    cor : branco;
+    tamanho da fonte :  25px ;
+    font-family : Arial , Helvetica , sans-serif;
+}
+
+h5 {
+    tamanho da fonte :  15 px ;
+    família de fontes : Verdana , Genebra , Tahoma , sans-serif;
+    cor : branco;
+}
+
+botão {
+    família de fontes : Verdana , Genebra , Tahoma , sans-serif;
+    raio da borda :  50 px ;
+    borda : branco sólido;
+    preenchimento :  10px ; _
+    margem :  0,30 % ; _ 
+}
+
+botão : pairar {
+    cor de fundo : transparente;
+    borda : branco sólido;
+    cor : branco;
+    transição :  0,3 s ;
+    cursor : ponteiro;
+}
+
+. cartão {
+    preenchimento :  50px ; _
+}
+
+#a { _
+    cor de fundo :  rgb ( 227 ,  136 ,  38 );
+    borda-topo-esquerda-raio :  10 px ;
+    border-bottom-left-radius :  10 px ;
+}
+#b { _
+    cor de fundo :  rgb ( 0 ,  105 ,  112 );
+}
+#c { _
+    cor de fundo :  rgb ( 0 ,  66 ,  65 );
+    border-top-right-radius :  10 px ;
+    border-bottom-right-radius :  10 px ;
+}
+
+@media ( largura mínima :  375 px ) {
+    . recipiente {
+        exibição : flexível;
+        flex- wrap : wrap;
+        preenchimento :  0 ;
+        largura :  100 % ;
+        altura :  100 % ;
+    }
+}
+
+@media ( largura mínima :  576 px ) {
+    . recipiente {
+        exibição : grade;
+        grid-template-columns : auto auto auto;
+        justificar-conteúdo : centro;
+        exibição : flexível;
+        flex- wrap : wrap;
+        }
+}
+
+@media ( largura mínima :  1200 px ) {
+   . recipiente {
+    exibição : grade;
+    grid-template-columns :   auto auto auto;
+    justificar-conteúdo : centro;
+    preenchimento :  50 px  0 ;
+    }
+  
+    corpo {
+        preenchimento :  0  200 px ;
+    }
+}
